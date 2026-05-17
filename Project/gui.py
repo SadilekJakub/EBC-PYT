@@ -74,7 +74,7 @@ class GUI:
         self.legend_frame = ttk.Frame(self.chart_container)
         self.legend_frame.pack(side=LEFT, fill=BOTH, expand=True, pady=10)
 
-    def apply_filters(self):
+    def apply_filters(self, event=None):
         self.refresh_dashboard()
 
     def setup_treeview(self):
